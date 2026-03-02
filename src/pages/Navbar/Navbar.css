@@ -1,0 +1,55 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  
+    
+}
+.Navbar h1{
+    
+    font-size: 2vw;
+    
+}
+.logo{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.menu{
+    height: 20px;
+    color: white;
+    filter: invert(100%) brightness(200%);
+      margin-left: 1%;
+  
+  cursor: pointer;
+}
+.movie-search{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 24px;
+    background:#fff4;
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 1%;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;                       
+  transition: all 0.3s ease;
+}
+.Navbar button{
+    margin-left: 38%;
+    background: linear-gradient(91deg, #1cb7ff 1.22%, #2ff58b 50.24%);
+    padding: 8px 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
