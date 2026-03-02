@@ -11,7 +11,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetchData(); // call fetchData when component mounts
+    fetchData();
   }, []);
 
   return (
