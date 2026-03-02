@@ -22,7 +22,7 @@ function App() {
           return (
             <>
               <div className="bold">
-                <p>pictures</p>
+                <p>Movie</p>
                 <img src={movie.download_url} alt="yoo" />
               </div>
             </>
