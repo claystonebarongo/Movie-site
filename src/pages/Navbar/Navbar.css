@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: black;
+    background: radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
     color: white;
     padding: 10px;
   
@@ -14,8 +14,8 @@
     
 }
 .logo{
-    width: 2.5rem;
-    border-radius: 50%;
+    width: 5rem;
+    border-radius:10px;
 }
 .menu{
     height: 20px;
@@ -43,8 +43,9 @@
   transition: all 0.3s ease;
 }
 .Navbar button{
-    margin-left: 38%;
-    background: linear-gradient(91deg, #1cb7ff 1.22%, #2ff58b 50.24%);
+    margin-left: 33%;
+    background: radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
+    color: white;
     padding: 8px 19px;
     border: none;
     outline: none;
