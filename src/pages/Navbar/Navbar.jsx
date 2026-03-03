@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='Navbar'>
             <img src={menu} alt="" className='menu' />
             <img src={pic1} alt="" className='logo' />
-            <h1>MovieSite</h1>
+            <h1>MubaCast</h1>
             <input type="text" placeholder='Search Movies/Tv Shows' className="movie-search" />
             <button>Download App</button>
 
