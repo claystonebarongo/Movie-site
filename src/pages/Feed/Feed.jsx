@@ -22,8 +22,8 @@ const Feed = () => {
     return (
         <div className="grid">
             {movieList.map((movie) => (
-                <div key={movie.id} className="bold"> {/* Added unique key */}
-                    <p>{movie.author}</p> {/* Picsum data uses 'author' instead of 'Movie' */}
+                <div key={movie.id} className="bold">
+                    <p>{movie.author}</p>
                     <img
                         src={movie.download_url}
                         alt={movie.author}
