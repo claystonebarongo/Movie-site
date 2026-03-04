@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'; // Added hooks to import
+import React, { useState, useEffect } from 'react';
 import './Feed.css'
 
 const Feed = () => {
