@@ -1,4 +1,4 @@
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
@@ -14,4 +14,8 @@
 }
 .bold p{
   font-weight: 600;
+} */
+
+.grid{
+  display: grid;
 }
