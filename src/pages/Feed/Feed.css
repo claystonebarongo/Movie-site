@@ -18,7 +18,7 @@
 } */
 .grid{
   display: grid;
-}
+
   padding: 20px;
   background: radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
   color: white;
