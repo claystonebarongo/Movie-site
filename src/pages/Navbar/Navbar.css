@@ -1,11 +1,13 @@
 .Navbar{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 13px;
     background: radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
     color: white;
     padding: 10px;
-  
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
     
 }
 .Navbar h1{
@@ -43,7 +45,7 @@
   transition: all 0.3s ease;
 }
 .Navbar button{
-    margin-left: 33%;
+    margin-left: 25%;
     background: radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
     color: white;
     padding: 8px 19px;

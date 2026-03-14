@@ -2,13 +2,27 @@ import { useState, useEffect } from 'react'
 
 import './App.css'
 import Navbar from './pages/Navbar/Navbar'
-import Feed from './pages/Feed/Feed'
+import Home from './pages/Home/Home'
+import Sidebar from './pages/sidebar/Sidebar'
 
 function App() {
+  const [category, setCategory] = useState(0)
+  const [openSidebar, setOpenSidebar] = useState(true)
+
+  const toggleSidebar = () => {
+    setOpenSidebar(!openSidebar)
+  }
+
+
   return (
     <div>
-      <Navbar />
-      <Feed />
+      <Navbar toggleSidebar={toggleSidebar} />
+      <div className="main">
+
+        <Sidebar openSidebar={openSidebar} setCategory={setCategory} />
+        <Home category={category} />
+      </div>
+
 
     </div>
   )

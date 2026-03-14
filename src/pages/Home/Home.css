@@ -1,0 +1,16 @@
+.feed{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 10px;
+  padding-top: 8%;
+  background:  radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
+    color: white;;
+}
+
+.feed img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  object-fit: fill;
+  
+}
