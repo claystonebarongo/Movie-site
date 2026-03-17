@@ -8,6 +8,7 @@ import Sidebar from './pages/sidebar/Sidebar'
 function App() {
   const [category, setCategory] = useState(0)
   const [openSidebar, setOpenSidebar] = useState(true)
+  const [searchQuery, setSearchQuery] = useState("")
 
   const toggleSidebar = () => {
     setOpenSidebar(!openSidebar)

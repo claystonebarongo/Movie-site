@@ -1,10 +1,13 @@
 .feed{
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: 10px;
+  gap: 8px;
   padding-top: 8%;
   background:  radial-gradient(circle at center, #2e1a47 0%, #120b1e 100%);
     color: white;;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .feed img{

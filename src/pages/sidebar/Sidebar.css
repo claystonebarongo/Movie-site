@@ -4,8 +4,9 @@
     width: 18vw;
     color: white;
     backdrop-filter: blur(10px);
-transition: all 0.35s ease;
-position: fixed;
+transition: 0.3s;
+overflow-y: auto;
+
 
     
 }
