@@ -17,6 +17,8 @@ function App() {
 
   return (
     <div>
+
+
       <Navbar toggleSidebar={toggleSidebar} />
 
       <div className="main">
