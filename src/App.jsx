@@ -18,6 +18,7 @@ function App() {
   return (
     <div>
       <Navbar toggleSidebar={toggleSidebar} />
+
       <div className="main">
 
         <Sidebar openSidebar={openSidebar} setCategory={setCategory} />
