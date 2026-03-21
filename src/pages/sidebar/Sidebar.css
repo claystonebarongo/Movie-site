@@ -41,7 +41,7 @@ overflow-y: auto;
     
 }
 .Side ul li:hover{
-    color: green;
+    color: yellow;
     cursor: pointer;
     transition: color 0.3s ease; 
 

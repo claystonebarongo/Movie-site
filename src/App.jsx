@@ -19,13 +19,13 @@ function App() {
     <div>
 
 
-      <Navbar toggleSidebar={toggleSidebar} />
+      <Navbar toggleSidebar={toggleSidebar} setSearchQuery={setSearchQuery} />
 
       <div className="main">
 
         <Sidebar openSidebar={openSidebar} setCategory={setCategory} />
 
-        <Home category={category} />
+        <Home category={category} searchQuery={searchQuery} z />
       </div>
 
 
