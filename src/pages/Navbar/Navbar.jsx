@@ -2,6 +2,7 @@ import React from 'react'
 import pic1 from '../../assets/Pasted image.png'
 import menu from '../../assets/menu.png'
 import './Navbar.css'
+
 const Navbar = ({ toggleSidebar, setSearchQuery }) => {
     return (
         <div className='Navbar'>

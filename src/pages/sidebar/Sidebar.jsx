@@ -18,6 +18,7 @@ const Sidebar = ({ openSidebar, setCategory }) => {
                 <li onClick={() => setCategory(53)}>Thriller</li>
                 <li onClick={() => setCategory(878)}>Sci-Fi</li>
 
+
             </ul>
         </div>
     )
