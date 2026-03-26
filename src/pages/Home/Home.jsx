@@ -7,6 +7,7 @@ const Home = ({ category, searchQuery }) => {
 
     const [movieData, setMovieData] = useState([])
 
+
     const fetchMovies = async () => {
 
         let url = "";
