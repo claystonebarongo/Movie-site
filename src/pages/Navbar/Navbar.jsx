@@ -4,6 +4,8 @@ import menu from '../../assets/menu.png'
 import './Navbar.css'
 
 const Navbar = ({ toggleSidebar, setSearchQuery }) => {
+
+
     return (
         <div className='Navbar'>
             <img src={menu} alt="" className='menu' onClick={toggleSidebar} />
@@ -16,6 +18,7 @@ const Navbar = ({ toggleSidebar, setSearchQuery }) => {
 
         </div>
     )
+
 }
 
 export default Navbar
