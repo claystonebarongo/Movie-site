@@ -9,8 +9,6 @@ const Home = ({ category, searchQuery }) => {
 
     const fetchMovies = async () => {
 
-
-
         let url = "";
 
         if (searchQuery) {
