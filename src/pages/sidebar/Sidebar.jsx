@@ -6,8 +6,6 @@ const Sidebar = ({ openSidebar, setCategory }) => {
         <div className={openSidebar ? "Side" : "Side2"}>
             <ul>
 
-
-
                 <li onClick={() => setCategory(0)}>Home</li>
                 <li onClick={() => setCategory(28)}>Action</li>
                 <li onClick={() => setCategory(12)}>Adventure</li>
