@@ -12,6 +12,7 @@ const Home = ({ category, searchQuery }) => {
 
         let url = "";
 
+
         if (searchQuery) {
 
             url = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${searchQuery}`;
