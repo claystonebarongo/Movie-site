@@ -24,6 +24,7 @@ const Home = ({ category, searchQuery }) => {
 
             url = category === 0
                 ? `https://api.themoviedb.org/3/trending/movie/day?api_key=${API_KEY}`
+
                 : `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=${category}`;
         }
 
