@@ -9,6 +9,9 @@ const Sidebar = ({ openSidebar, setCategory }) => {
                 <li onClick={() => setCategory(0)}>Home</li>
                 <li onClick={() => setCategory(28)}>Action</li>
                 <li onClick={() => setCategory(12)}>Adventure</li>
+
+
+
                 <li onClick={() => setCategory(35)}>Comedy</li>
                 <li onClick={() => setCategory(18)}>Drama</li>
                 <li onClick={() => setCategory(27)}>Horror</li>
