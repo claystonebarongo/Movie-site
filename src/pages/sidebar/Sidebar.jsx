@@ -41,6 +41,7 @@ const Sidebar = ({ openSidebar, setCategory }) => {
                 </li>
 
                 <li onClick={() => setCategory(10749)}>
+
                     <Heart size={18} /> Romance
                 </li>
 
