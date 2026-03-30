@@ -13,6 +13,8 @@ import {
 } from 'lucide-react'
 
 const Sidebar = ({ openSidebar, setCategory }) => {
+
+
     return (
         <div className={openSidebar ? "Side" : "Side2"}>
             <ul>
