@@ -46,6 +46,8 @@ const Sidebar = ({ openSidebar, setCategory }) => {
                 </li>
 
                 <li onClick={() => setCategory(53)}>
+
+
                     <AlertTriangle size={18} /> Thriller
                 </li>
 
