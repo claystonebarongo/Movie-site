@@ -58,6 +58,8 @@ const Sidebar = ({ openSidebar, setCategory }) => {
                 </li>
 
                 <li onClick={() => setCategory(878)}>
+
+
                     <Rocket size={18} /> Sci-Fi
                 </li>
             </ul>
