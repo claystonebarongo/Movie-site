@@ -32,7 +32,11 @@ const Home = ({ category, searchQuery }) => {
 
 
         const res = await fetch(url);
+
+
         const data = await res.json()
+
+
         setMovieData(data.results)
 
     }
