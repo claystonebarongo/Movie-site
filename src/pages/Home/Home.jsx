@@ -43,7 +43,9 @@ const Home = ({ category, searchQuery }) => {
 
     useEffect(() => {
         fetchMovies();
+
     }, [category, searchQuery])
+
 
     return (
         <div className='feed'>
