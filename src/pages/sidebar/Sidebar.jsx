@@ -23,6 +23,7 @@ const Sidebar = ({ openSidebar, setCategory }) => {
         <div className={openSidebar ? "Side" : "Side2"}>
             <ul>
                 <li onClick={() => setCategory(0)}>
+
                     <House size={18} /> Home
                 </li>
 
