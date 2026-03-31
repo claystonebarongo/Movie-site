@@ -55,6 +55,7 @@ const Home = ({ category, searchQuery }) => {
                 <div key={item.id} className='card'>
 
                     <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt="" />
+
                     <h2>{item.title}</h2>
 
 
