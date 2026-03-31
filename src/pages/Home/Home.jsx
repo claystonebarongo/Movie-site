@@ -3,6 +3,8 @@ import './Home.css'
 
 const Home = ({ category, searchQuery }) => {
 
+
+
     const API_KEY = 'dbea59f1cf9bb6cd9ab53023420a9bdb'
 
     const [movieData, setMovieData] = useState([])
