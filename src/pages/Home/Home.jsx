@@ -49,6 +49,8 @@ const Home = ({ category, searchQuery }) => {
 
     return (
         <div className='feed'>
+
+
             {movieData.map((item) => (
                 <div key={item.id} className='card'>
 
