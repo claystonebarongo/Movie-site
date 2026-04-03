@@ -11,6 +11,7 @@ function App() {
 
 
   const [category, setCategory] = useState(0)
+
   const [openSidebar, setOpenSidebar] = useState(true)
 
 
