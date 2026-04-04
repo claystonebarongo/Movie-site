@@ -5,6 +5,8 @@ import Navbar from './pages/Navbar/Navbar'
 
 
 import Home from './pages/Home/Home'
+
+
 import Sidebar from './pages/sidebar/Sidebar'
 
 function App() {
