@@ -37,7 +37,6 @@ function App() {
 
 
         <Sidebar openSidebar={openSidebar} setCategory={setCategory} />
-
         <Home category={category} searchQuery={searchQuery} />
       </div>
 
