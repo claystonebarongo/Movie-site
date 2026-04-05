@@ -40,6 +40,7 @@ function App() {
 
         <Home category={category} searchQuery={searchQuery} />
 
+
       </div>
 
 
