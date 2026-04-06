@@ -44,6 +44,8 @@
   outline: none;                       
   transition: all 0.3s ease;
 }
+
+
 .Navbar button{
     margin-left: 25%;
     background: yellow;
